@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     
     print(event)
     
-    # check that the request has some input body
+    # check that the request has some input body test change
     if 'body' in event:
         event = json.loads(event["body"])
 
