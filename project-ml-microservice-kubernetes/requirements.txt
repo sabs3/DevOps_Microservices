@@ -3,11 +3,11 @@ Flask
 itsdangerous
 Jinja2
 MarkupSafe
-numpy
+numpy==1.17.3
 pandas
 python-dateutil
 pytz
-scikit-learn==0.20.2
+scikit-learn==0.20.3
 scipy
 six
 Werkzeug
