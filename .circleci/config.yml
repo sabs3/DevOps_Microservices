@@ -8,6 +8,7 @@ jobs:
     docker:
     - image: python:3.7.3-stretch
       working_directory: ~/repo
+
     steps:
     - checkout
     - restore_cache:
@@ -20,6 +21,7 @@ jobs:
           python3 -m venv venv
           . venv/bin/activate
           make install
+          no_output_timeout: 2h
           wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&
           chmod +x /bin/hadolint
     - save_cache:
