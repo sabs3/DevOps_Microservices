@@ -12,10 +12,10 @@ setup:
 
 install:
 	# This should be run from inside a virtualenv
-	# SciPy:
+	# SciPy pip3 install --no-binary :all: -r requirements.txt
 
 	pip3 install --upgrade pip &&\
-		pip3 install --no-binary :all: -r requirements.txt
+		pip3 install -r requirements.txt
 
 test:
 	# Additional, optional, tests could go here
