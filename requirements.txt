@@ -2,7 +2,7 @@ Click
 Flask
 numpy
 pandas==1.3.3
-scikit-learn==0.22.2
+scikit-learn==0.23.2
 itsdangerous
 Jinja2
 joblib
